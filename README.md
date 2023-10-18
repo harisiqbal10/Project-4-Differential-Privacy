@@ -36,9 +36,9 @@ cd Project-4-Differential-Privacy
 
 `values_per_party`: The number of values generated for each party in each experiment.
 
-Set a privacy budget of ε = 1.0 for testing `differential_privacy` function.
-
 Modify `secret` in the `shamir_secret_sharing` function if you want to use a different secret.
+
+Set a privacy budget of ε = 1.0 for testing `differential_privacy` function.
 
 ### Running the Experiment
 
@@ -46,12 +46,7 @@ Within the Jupyter Notebook, run each cell in the notebook sequentially. The not
 
 ### Viewing Results
 
-The Jupyter Notebook will display four plots:
+The Jupyter Notebook will display two plots:
 
-1. **No Privacy Protection SMPC Runtime Plot**: This plot shows the average runtimes for the "No Privacy Protection" approach.
-
-2. **Shamir's Secret Sharing SMPC Runtime Plot**: This plot shows the average runtimes for the "Shamir's Secret Sharing" approach.
-
-3. **Paillier Encryption SMPC Runtime Plot**: This plot shows the average runtimes for "Paillier Encryption" approach.
-
-4. **Combined Runtimes Plot**: A combined plot that displays all three approaches for comparison.
+1. **Combined Runtimes for Different SMPC Approaches**
+2. **Combined Accuracy Errors for Different SMPC Approaches**
