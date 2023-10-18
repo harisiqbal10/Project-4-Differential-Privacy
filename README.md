@@ -1,6 +1,6 @@
 ## Project-4-Differential-Privacy
 
-This README provides instructions on how to run the Secure Multi-Party Computation (SMPC) runtime and accuracy experiment code. The experiment measures the runtimes and accuracy error for four different SMPC approaches: **No Privacy Protection**, **Shamir's Secret Sharing**, **Paillier Encryption**, and **Differential Privacy** across various values of `n`.
+This README provides instructions on how to run the Secure Multi-Party Computation (SMPC) experiment code. The experiment measures the runtimes and accuracy error for four different SMPC approaches: **No Privacy Protection**, **Shamir's Secret Sharing**, **Paillier Encryption**, and **Differential Privacy**, across various values of `n`.
 
 ### Prerequisites
 
@@ -36,11 +36,13 @@ cd Project-4-Differential-Privacy
 
 `values_per_party`: The number of values generated for each party in each experiment.
 
+Set a privacy budget of ε = 1.0 for testing `differential_privacy` function.
+
 Modify `secret` in the `shamir_secret_sharing` function if you want to use a different secret.
 
 ### Running the Experiment
 
-Within the Jupyter Notebook, run each cell in the notebook sequentially. The notebook will execute the experiment for each SMPC approach and collect average runtimes for each `n`. If interruption occurs, please select `Restart & Run All`.
+Within the Jupyter Notebook, run each cell in the notebook sequentially. The notebook will execute the experiment for each SMPC approach and collect average runtimes and accuracy errors for each `n`. If interruption occurs, please select `Restart & Run All`.
 
 ### Viewing Results
 
