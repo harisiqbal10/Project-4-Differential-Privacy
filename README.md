@@ -38,7 +38,7 @@ cd Project-4-Differential-Privacy
 
 Modify `secret` in the `shamir_secret_sharing` function if you want to use a different secret.
 
-Set a privacy budget of ε = 1.0 for testing `differential_privacy` function.
+Set a privacy budget of `ε = 1.0` for testing `differential_privacy` function.
 
 ### Running the Experiment
 
